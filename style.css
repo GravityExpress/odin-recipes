@@ -1,8 +1,34 @@
+html, body {
+    background-color: #9BBEC8;
+    height: 100%;
+    margin: 0px;
+}
+
 h1,h2,h3 {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-    color: whitesmoke;
-    background-color: grey;
+    color: #427D9D;
+    background-color: #164863;
+    padding: 5px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+#home-directories {
+    background-color: #DDF2FD;
+    color: black;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#fill-background {
+    background-color: #DDF2FD;
+    width: 100%;
+    height: 85%;
 }
 
 p,
@@ -19,6 +45,8 @@ img {
     width: auto;
     height: 375px;
     display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
 }
